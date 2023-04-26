@@ -31,12 +31,9 @@ typedef double (*func_type ) ( double const x, void * p );
  ***********************************************************************/
 double trapez ( func_type f, double const xa, double const xe, void * p ) 
 {
+  double h = xe - xa;
 
-  /* Setze die Trapezintegration ein für das Intervall [ xa, xe ] mit
-   * Schrittweite h = xe - xa
-   * ??? 
-   */
-  return( 0 );
+  return h/2*(f(xa, p)+ f(xe, p));
 
 } /* end of trapez */
 

@@ -4,3 +4,8 @@ romberg
 romberg.exe
 trapez
 trapez.exe
+test.exe
+.gitignore
+test.c
+.vscode/tasks.json
+trapez_mine.exe
